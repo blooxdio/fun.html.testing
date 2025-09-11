@@ -1,6 +1,6 @@
 body {
     font-family: sans-serif;
-    margin: 3;
+    margin: 0;
     background-color: #f4f4f4;
 }
 
@@ -9,6 +9,28 @@ header {
     color: #fff;
     padding: 1rem 0;
     text-align: center;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+    background-color: #444;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 1rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #555;
 }
 
 main {
@@ -23,6 +45,13 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+pre {
+    background-color: #eee;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    white-space: pre-wrap;
 }
 
 code {
