@@ -55,5 +55,11 @@ pre {
 }
 
 code {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: monospace;
+}
+
+form {
+    font-family: monospace;
+    margin: 1;
+    background-color: #f4f4f4;
 }
